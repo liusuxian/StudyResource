@@ -1,4 +1,4 @@
 # learning
 learning
 
-[Linux笔记](https://github.com/liusuxian/learning/blob/master/Linux.md)
+[Linux](https://github.com/liusuxian/StudyComputerTechnology/tree/master/Linux)
