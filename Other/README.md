@@ -1,3 +1,3 @@
 # Other
 
-[false sharing](https://github.com/liusuxian/StudyComputerTechnology/blob/master/Linux/false sharing.md)
+[false_sharing](https://github.com/liusuxian/StudyComputerTechnology/blob/master/Linux/false_sharing.md)
