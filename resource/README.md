@@ -2,7 +2,7 @@
 
 ### 学习相关：
 #### ElementUi 3.0：https://element-plus.gitee.io/zh-CN/component/border.html
-###### ElementUi 2.0：https://element.eleme.cn/#/zh-CN/component/installation
+#### ElementUi 2.0：https://element.eleme.cn/#/zh-CN/component/installation
 #### uni-app 官方文档：https://uniapp.dcloud.io/quickstart-hx
 #### GORM 中文文档：http://books.studygolang.com/gorm/
 #### GORM 中文文档 V2：https://learnku.com/docs/gorm/v2
@@ -37,25 +37,25 @@
 #### 刷题路线：https://u.geekbang.org/lesson/133?article=262188
 
 ### 微服务相关：
-既然有 HTTP 请求，为什么还要用 RPC 调用：https://www.zhihu.com/question/41609070/answer/1040163258
-DDD的一些知识，服务拆分，分层架构的一些理解：https://www.jianshu.com/p/5732b69bd1a1
-GraphQL 及元数据驱动架构在后端BFF中的实践：https://mp.weixin.qq.com/s/mhM9tfWBlIuMVkZQ-6C0Tw
-美团 Serverless 的探索与实践：https://mp.weixin.qq.com/s/n5JVLJ4Vf5stWR7SjVchLw
-Kong 在好大夫的落地实践：https://www.infoq.cn/article/i7ypjly3fquydleoehcp
-kong 带了一个Web UI：https://github.com/pantsel/konga
+#### 既然有 HTTP 请求，为什么还要用 RPC 调用：https://www.zhihu.com/question/41609070/answer/1040163258
+#### DDD的一些知识，服务拆分，分层架构的一些理解：https://www.jianshu.com/p/5732b69bd1a1
+#### GraphQL 及元数据驱动架构在后端BFF中的实践：https://mp.weixin.qq.com/s/mhM9tfWBlIuMVkZQ-6C0Tw
+#### 美团 Serverless 的探索与实践：https://mp.weixin.qq.com/s/n5JVLJ4Vf5stWR7SjVchLw
+#### Kong 在好大夫的落地实践：https://www.infoq.cn/article/i7ypjly3fquydleoehcp
+#### kong 带了一个Web UI：https://github.com/pantsel/konga
 
 ### 操作系统相关：
-Linux 下调用 pthread 库创建的线程是属于用户级线程还是内核级线程：https://www.zhihu.com/question/35128513
+#### Linux 下调用 pthread 库创建的线程是属于用户级线程还是内核级线程：https://www.zhihu.com/question/35128513
 
 ### 工具相关：
-在线图片压缩：https://tinypng.com/
-在线各类文件处理工具：https://www.aconvert.com/cn/icon/png-to-ico/
-小飞机：https://www.acg6.club/auth/login#
-Goland 无限重置使用：https://www.macwk.com/article/jetbrains-crack#无限重置试用
-Mac软件下载：https://www.macwk.com/
-PlantUML 简介：https://plantuml.com/zh/
-图标库：https://www.iconfont.cn/home/index?spm=a313x.7781069.1998910419.2
-花瓣：https://huaban.com/pins/4285426645/
-CentOS8.2安装Mysql数据库：https://blog.csdn.net/ldy/article/details/108617675
-免费在线人声与背景音乐分离工具：https://vocalremover.org
-免费在线YouTube视频下载工具：http://www.clipconverter.cc/
+#### 在线图片压缩：https://tinypng.com/
+#### 在线各类文件处理工具：https://www.aconvert.com/cn/icon/png-to-ico/
+#### 小飞机：https://www.acg6.club/auth/login#
+#### Goland 无限重置使用：https://www.macwk.com/article/jetbrains-crack#无限重置试用
+#### Mac软件下载：https://www.macwk.com/
+#### PlantUML 简介：https://plantuml.com/zh/
+#### 图标库：https://www.iconfont.cn/home/index?spm=a313x.7781069.1998910419.2
+#### 花瓣：https://huaban.com/pins/4285426645/
+#### CentOS8.2安装Mysql数据库：https://blog.csdn.net/ldy/article/details/108617675
+#### 免费在线人声与背景音乐分离工具：https://vocalremover.org
+#### 免费在线YouTube视频下载工具：http://www.clipconverter.cc/
