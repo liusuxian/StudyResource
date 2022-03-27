@@ -2,45 +2,25 @@
 
 ### 学习相关：
 ElementUi 3.0：https://element-plus.gitee.io/zh-CN/component/border.html
-
 ElementUi 2.0：https://element.eleme.cn/#/zh-CN/component/installation
-
 uni-app 官方文档：https://uniapp.dcloud.io/quickstart-hx
-
 GORM 中文文档：http://books.studygolang.com/gorm/
-
 GORM 中文文档 V2：https://learnku.com/docs/gorm/v2
-
 Go 语言学习中文文档：https://www.topgoer.com
-
 20 张动图为你演示 Go 并发：https://learnku.com/go/t/39490
-
 Go http request 引起的 goroutine 泄漏：https://sanyuesha.com/2019/09/10/go-http-request-goroutine-leak/
-
 goim：https://github.com/Terry-Mao/goim
-
 GoKit 学习视频：https://www.bilibili.com/video/BV1fK4y1C7Vp?from=search&seid=15211777465681442310
-
 Go 博客：http://legendtkl.com/archives/
-
 深入解析 Go：https://tiancaiamao.gitbooks.io/go-internals/content/zh/01.0.html
-
 CQRS 可以参考：https://microservices.io/patterns/data/cqrs.html
-
 2020 阿里、美团、头条最新面经合集：https://shimo.im/docs/f3qkswc1OysVUFvN
-
 B站的框架：https://github.com/bilibili/kratos
-
 技术面试汇总：https://imageslr.github.io/
-
 前端系统学习：https://chinese.freecodecamp.org/learn/
-
 各类 API 集合：https://devdocs.io/offline
-
 LearningNotes（各类语言学习集合）：https://gitee.com/moxi159753/LearningNotes/tree/master
-
 K8s 部署：https://www.kubernetes.org.cn/6632.html
-
 小程序到小游戏：https://cloud.tencent.com/edu/paths/series/applet
 
 ### 网络相关：
