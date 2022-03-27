@@ -1,6 +1,6 @@
 # resource
 
-### 学习相关：
+## <font color=red size=5>学习相关：</font>
 #### ElementUi 3.0：https://element-plus.gitee.io/zh-CN/component/border.html
 #### ElementUi 2.0：https://element.eleme.cn/#/zh-CN/component/installation
 #### uni-app 官方文档：https://uniapp.dcloud.io/quickstart-hx
