@@ -52,7 +52,7 @@
 #### 在线图片压缩：https://tinypng.com/
 #### 在线各类文件处理工具：https://www.aconvert.com/cn/icon/png-to-ico/
 #### 小飞机：https://www.acg6.club/auth/login#
-#### Goland 无限重置使用：https://www.macwk.com/article/jetbrains-crack#无限重置试用
+#### Goland激活教程：https://shimo.im/docs/dKYCkd8PrX3ckX99/read
 #### Mac软件下载：https://www.macwk.com/
 #### PlantUML 简介：https://plantuml.com/zh/
 #### 图标库：https://www.iconfont.cn/home/index?spm=a313x.7781069.1998910419.2
