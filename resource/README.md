@@ -24,6 +24,12 @@
 #### 小程序到小游戏：https://cloud.tencent.com/edu/paths/series/applet
 #### Go进阶训练营学习总结：https://lailin.xyz/categories/Go%E8%BF%9B%E9%98%B6%E8%AE%AD%E7%BB%83%E8%90%A5/
 #### goframe基础教程-快速入门：https://studygolang.com/articles/27491?fr=sidebar
+#### goframe中文文档：https://goframe.org/pages/viewpage.action?pageId=1114119
+#### 贝壳Go实现的IM群聊优化之路：https://mp.weixin.qq.com/s/51IP867iJJtcq7IDd_JQxQ
+#### Leaf游戏服务器框架：https://github.com/name5566/leaf/blob/master/TUTORIAL_ZH.md
+#### Kratos技术系列｜从Kratos设计看Go微服务工程实践：https://mp.weixin.qq.com/s/ZCoc3qA_r1fKzPOURA2V2g
+#### 日志库的使用姿势：https://mp.weixin.qq.com/s/rqmrkUiDtorzEIN00ObbLg
+#### go语言中文网：https://studygolang.com/
 
 ## 网络相关
 #### 网络基础知识：https://www.cnblogs.com/huozhonghun/p/13191958.html
