@@ -1,7 +1,6 @@
 # resource
 
-## <font color=red size=5>学习相关：</font>
-- <font color=red size=5>color=red</font>
+## 学习相关
 #### ElementUi 3.0：https://element-plus.gitee.io/zh-CN/component/border.html
 #### ElementUi 2.0：https://element.eleme.cn/#/zh-CN/component/installation
 #### uni-app 官方文档：https://uniapp.dcloud.io/quickstart-hx
@@ -23,11 +22,12 @@
 #### LearningNotes（各类语言学习集合）：https://gitee.com/moxi159753/LearningNotes/tree/master
 #### K8s 部署：https://www.kubernetes.org.cn/6632.html
 #### 小程序到小游戏：https://cloud.tencent.com/edu/paths/series/applet
+#### Go进阶训练营学习总结：https://lailin.xyz/categories/Go%E8%BF%9B%E9%98%B6%E8%AE%AD%E7%BB%83%E8%90%A5/
 
-### 网络相关：
+## 网络相关
 #### 网络基础知识：https://www.cnblogs.com/huozhonghun/p/13191958.html
 
-### 算法相关：
+## 算法相关
 #### 数据结构和算法动态可视化： https://visualgo.net/zh
 #### Java高级数据结构分析：https://blog.csdn.net/java_codestack/article/list
 #### leetcode刷题模版：https://blog.csdn.net/fuxuemingzhu/article/details/101900729
@@ -37,7 +37,7 @@
 #### 五毒神掌：https://shimo.im/sheets/3PTWVqPy8XvDHY8j/MODOC/
 #### 刷题路线：https://u.geekbang.org/lesson/133?article=262188
 
-### 微服务相关：
+## 微服务相关
 #### 既然有 HTTP 请求，为什么还要用 RPC 调用：https://www.zhihu.com/question/41609070/answer/1040163258
 #### DDD的一些知识，服务拆分，分层架构的一些理解：https://www.jianshu.com/p/5732b69bd1a1
 #### GraphQL 及元数据驱动架构在后端BFF中的实践：https://mp.weixin.qq.com/s/mhM9tfWBlIuMVkZQ-6C0Tw
@@ -45,10 +45,10 @@
 #### Kong 在好大夫的落地实践：https://www.infoq.cn/article/i7ypjly3fquydleoehcp
 #### kong 带了一个Web UI：https://github.com/pantsel/konga
 
-### 操作系统相关：
+## 操作系统相关
 #### Linux 下调用 pthread 库创建的线程是属于用户级线程还是内核级线程：https://www.zhihu.com/question/35128513
 
-### 工具相关：
+## 工具相关
 #### 在线图片压缩：https://tinypng.com/
 #### 在线各类文件处理工具：https://www.aconvert.com/cn/icon/png-to-ico/
 #### 小飞机：https://www.acg6.club/auth/login#
