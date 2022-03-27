@@ -23,6 +23,7 @@
 #### K8s 部署：https://www.kubernetes.org.cn/6632.html
 #### 小程序到小游戏：https://cloud.tencent.com/edu/paths/series/applet
 #### Go进阶训练营学习总结：https://lailin.xyz/categories/Go%E8%BF%9B%E9%98%B6%E8%AE%AD%E7%BB%83%E8%90%A5/
+#### goframe基础教程-快速入门：https://studygolang.com/articles/27491?fr=sidebar
 
 ## 网络相关
 #### 网络基础知识：https://www.cnblogs.com/huozhonghun/p/13191958.html
