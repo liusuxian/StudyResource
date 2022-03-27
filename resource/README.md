@@ -1,6 +1,7 @@
 # resource
 
 学习相关：
+```
 ElementUi 3.0：https://element-plus.gitee.io/zh-CN/component/border.html
 ElementUi 2.0：https://element.eleme.cn/#/zh-CN/component/installation
 uni-app 官方文档：https://uniapp.dcloud.io/quickstart-hx
@@ -22,6 +23,7 @@ B站的框架：https://github.com/bilibili/kratos
 LearningNotes（各类语言学习集合）：https://gitee.com/moxi159753/LearningNotes/tree/master
 K8s 部署：https://www.kubernetes.org.cn/6632.html
 小程序到小游戏：https://cloud.tencent.com/edu/paths/series/applet
+```
 
 网络相关：
 网络基础知识：https://www.cnblogs.com/huozhonghun/p/13191958.html
