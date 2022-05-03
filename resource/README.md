@@ -3,6 +3,7 @@
 ## 学习相关
 #### ElementUi 3.0：https://element-plus.gitee.io/zh-CN/component/border.html
 #### ElementUi 2.0：https://element.eleme.cn/#/zh-CN/component/installation
+#### vue-router-tab：https://bhuh12.github.io/vue-router-tab/zh/guide/essentials/
 #### uni-app 官方文档：https://uniapp.dcloud.io/quickstart-hx
 #### GORM 中文文档：http://books.studygolang.com/gorm/
 #### GORM 中文文档 V2：https://learnku.com/docs/gorm/v2
