@@ -28,9 +28,17 @@
 #### goframe中文文档：https://goframe.org/pages/viewpage.action?pageId=1114119
 #### 贝壳Go实现的IM群聊优化之路：https://mp.weixin.qq.com/s/51IP867iJJtcq7IDd_JQxQ
 #### Leaf游戏服务器框架：https://github.com/name5566/leaf/blob/master/TUTORIAL_ZH.md
+#### 中小型手机棋牌网络游戏服务端架构：https://github.com/panshiqu/framework
+#### 斗地主棋牌游戏服务器：https://github.com/dwg255/landlord
+#### 小鹿源码站：https://www.xlymz.com/4555.html
+#### golang版超高效带癞子麻将胡牌算法：https://download.csdn.net/download/zzzyh11/10740008
+#### 棋牌的胡牌算法：https://github.com/yuanfengyun/qipai_algorithm
+#### 可伸缩的分布式游戏服务器框架：https://github.com/topfreegames/pitaya
 #### Kratos技术系列｜从Kratos设计看Go微服务工程实践：https://mp.weixin.qq.com/s/ZCoc3qA_r1fKzPOURA2V2g
 #### 日志库的使用姿势：https://mp.weixin.qq.com/s/rqmrkUiDtorzEIN00ObbLg
 #### go语言中文网：https://studygolang.com/
+#### casbin中文文档：https://casbin.org/docs/zh-CN/how-it-works
+#### 书栈网：https://www.bookstack.cn
 
 ## 网络相关
 #### 网络基础知识：https://www.cnblogs.com/huozhonghun/p/13191958.html
