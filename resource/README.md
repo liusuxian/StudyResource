@@ -43,6 +43,7 @@
 #### 书栈网：https://www.bookstack.cn
 #### excelize：https://xuri.me/excelize/zh-hans/
 #### VForm在线表单设计器：https://www.vform666.com/
+#### zTree-jQuery树插件：https://treejs.cn/v3/main.php#_zTreeInfo
 
 ## 网络相关
 #### 网络基础知识：https://www.cnblogs.com/huozhonghun/p/13191958.html
