@@ -32,6 +32,11 @@
 #### Leaf游戏服务器框架：https://github.com/name5566/leaf/blob/master/TUTORIAL_ZH.md
 #### 中小型手机棋牌网络游戏服务端架构：https://github.com/panshiqu/framework
 #### 斗地主棋牌游戏服务器：https://github.com/dwg255/landlord
+#### 使用pomelo+CocosCreator开发的棋牌游戏集：https://github.com/ligun123/chess
+#### 牛牛棋牌前后端完整代码（nodejs+cocos creator)：https://github.com/nlmayday/niuniu
+#### 基于Go语言的棋牌游戏框架：https://github.com/gochenzl/chess
+#### 棋牌类算法：https://github.com/pyihe/ALG-QiPai
+#### 德州扑克：https://github.com/Snger/Texas-Holdem
 #### 小鹿源码站：https://www.xlymz.com/4555.html
 #### golang版超高效带癞子麻将胡牌算法：https://download.csdn.net/download/zzzyh11/10740008
 #### 棋牌的胡牌算法：https://github.com/yuanfengyun/qipai_algorithm
@@ -44,6 +49,8 @@
 #### excelize：https://xuri.me/excelize/zh-hans/
 #### VForm在线表单设计器：https://www.vform666.com/
 #### zTree-jQuery树插件：https://treejs.cn/v3/main.php#_zTreeInfo
+#### 奇文网盘开发文档：https://pan.qiwenshare.com/docs/guide/#%E7%AE%80%E4%BB%8B
+#### 基于Vue的仿原生操作系统鼠标拖拽选择：https://github.com/ZhiJieZhang1/vue-drag-select
 
 ## 网络相关
 #### 网络基础知识：https://www.cnblogs.com/huozhonghun/p/13191958.html
