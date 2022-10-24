@@ -135,4 +135,5 @@ grant Describe, Alter, Update on table tabName to user `RAM$阿里云账号ID:ro
 (h) "授权角色"填写创建好的RAM角色名，例如：AliyunKafkaMaxComputeUser1
 (i) "模式"选择VALUE，"格式"选择CSV，"分区"选择DAY，"时区"选择GMT+08:00，点击"创建"
 (j) 创建完成后，点击"部署"，等待部署成功后即可发送测试消息
+注意：odps表每次有新的改动时，都需要删除Connector后在重建Connector，否则无法写入数据
 ```
