@@ -43,6 +43,7 @@
 #### 奇文网盘开发文档：https://pan.qiwenshare.com/docs/guide/#%E7%AE%80%E4%BB%8B
 #### 基于Vue的仿原生操作系统鼠标拖拽选择：https://github.com/ZhiJieZhang1/vue-drag-select
 #### 大厂前端需要掌握的JS基础能力，大厂场景题、大厂面试真题：https://github.com/OBKoro1/web-basics
+#### 创建MaxCompute Sink Connector：https://help.aliyun.com/document_detail/169410.htm?spm=a2c4g.11186623.0.0.76c279850aNoSo#task-2511890
 
 ## 网络相关
 #### 网络基础知识：https://www.cnblogs.com/huozhonghun/p/13191958.html
@@ -82,3 +83,56 @@
 #### 免费在线YouTube视频下载工具：http://www.clipconverter.cc/
 #### 产品班：http://www.chanpinban.com
 #### LibreSSL SSL_connect: Operation timed out in connection to github.com:443已解决：https://www.jianshu.com/p/02ecee63b725
+
+## 配置MaxCompute客户端
+```
+###################################### Required fields ############################################
+project_name=访问的目标MaxCompute项目名称。如果您创建了标准模式的工作空间，在配置project_name时，请注意区分生产环境与开发环境（_dev）的项目名称
+access_id=阿里云账号的AccessKey ID
+access_key=阿里云账号的AccessKey Secret
+end_point=MaxCompute服务的连接地址。您需要根据创建MaxCompute项目时选择的地域以及网络连接方式配置Endpoint。
+###################################### Optional fields ############################################
+log_view_host=http://logview.odps.aliyun.com
+https_check=True
+# confirm threshold for query input size(unit: GB)
+data_size_confirm=100
+# this url is for odpscmd update
+update_url=
+# download sql results by instance tunnel
+use_instance_tunnel=True
+# the max records when download sql results by instance tunnel
+instance_tunnel_max_record=10000
+# IMPORTANT:
+#   If leaving tunnel_endpoint untouched, console will try to automatically get one from odps service, which might charge networking fees in some cases.
+#   Please refer to https://help.aliyun.com/document_detail/34951.html
+# tunnel_endpoint=
+
+# use set.<key>=
+# e.g. set.odps.sql.select.output.format=
+```
+## odps消费kafka数据(创建MaxCompute Sink Connector)
+```
+1.kafka创建好需要被消费的topic
+2.odps创建数据分区表：
+CREATE TABLE IF NOT EXISTS tabName(topic STRING, partition BIGINT, offset BIGINT) PARTITIONED by (pt STRING);
+3.创建RAM角色，参见文档：https://help.aliyun.com/document_detail/169410.htm?spm=a2c4g.11186623.0.0.76c279850aNoSo#task-2511890
+4.登录MaxCompute客户端
+5.为创建的RAM角色添加权限：
+(a) 执行以下命令添加RAM角色为用户：
+add user `RAM$阿里云账号ID:role/aliyunkafkamaxcomputeuser1`;
+(b) 执行以下命令为RAM用户授予项目相关权限：
+grant CreateInstance on project projectName to user `RAM$阿里云账号ID:role/aliyunkafkamaxcomputeuser1`;
+(c) 执行以下命令为RAM用户授予表相关权限：
+grant Describe, Alter, Update on table tabName to user `RAM$阿里云账号ID:role/aliyunkafkamaxcomputeuser1`;
+6.创建MaxCompute Sink Connector：
+(a) 配置基本信息时，"数据源Topic"选择需要被消费的Topic，"消费线程并发数"选择与被消费的Topic分区数保持一致，"消费初始位置"选择最近位点
+(b) 配置源服务时，选择大数据计算服务
+(c) "连接地址"填写MaxCompute的数据源管理中的Endpoint，以华东1（杭州）为例，填写http://service.cn-hangzhou.maxcompute.aliyun.com/api
+(d) "工作空间"填写项目名称，注意区分开发和生产环境
+(e) "表"填写odps中创建好的表名
+(f) "表地域"选择odps所属的地域，例如：华东1（杭州）
+(g) "服务账号"填写阿里云账号ID
+(h) "授权角色"填写创建好的RAM角色名，例如：AliyunKafkaMaxComputeUser1
+(i) "模式"选择VALUE，"格式"选择CSV，"分区"选择DAY，"时区"选择GMT+08:00，点击"创建"
+(j) 创建完成后，点击"部署"，等待部署成功后即可发送测试消息
+```
